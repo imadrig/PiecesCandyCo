@@ -1,0 +1,14 @@
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\bin\Debug\net7.0\PiecesCandyCo.Models.deps.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\bin\Debug\net7.0\PiecesCandyCo.Models.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\bin\Debug\net7.0\PiecesCandyCo.Models.pdb
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.AssemblyInfoInputs.cache
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.AssemblyInfo.cs
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.csproj.CoreCompileInputs.cache
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\refint\PiecesCandyCo.Models.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.pdb
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\ref\PiecesCandyCo.Models.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.csproj.AssemblyReference.cache
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\bin\Debug\net7.0\PiecesCandyCo.Models.runtimeconfig.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\bin\Debug\net7.0\PiecesCandyCo.Utility.deps.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\bin\Debug\net7.0\PiecesCandyCo.Utility.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\bin\Debug\net7.0\PiecesCandyCo.Utility.pdb
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.AssemblyInfoInputs.cache
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.AssemblyInfo.cs
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.csproj.CoreCompileInputs.cache
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\refint\PiecesCandyCo.Utility.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.pdb
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\ref\PiecesCandyCo.Utility.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.csproj.AssemblyReference.cache
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\bin\Debug\net7.0\PiecesCandyCo.Utility.runtimeconfig.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Utility\obj\Debug\net7.0\PiecesCandyCo.Utility.genruntimeconfig.cache

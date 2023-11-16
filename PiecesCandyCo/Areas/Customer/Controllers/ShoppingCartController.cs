@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using PiecesCandyCo.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PiecesCandyCo.DataAccess.Repository.IRepository;
 using PiecesCandyCo.Models;
 using PiecesCandyCo.Models.ViewModels;
 using System.Security.Claims;

@@ -37,6 +37,7 @@ namespace PiecesCandyCo.Models
         public Category Category { get; set; }
         
         [ValidateNever]
+        [Display(Name = "Image")]
         public string ImageURL {get; set; }
 
 

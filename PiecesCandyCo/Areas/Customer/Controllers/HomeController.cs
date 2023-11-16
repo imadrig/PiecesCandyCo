@@ -33,7 +33,7 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
                 Product = _unitOfWork.Product.Get(u => u.Id == id, includeProperties: "Category"),
                 Quantity = 1,
                 ProductId = id
-        };
+            };
             
             return View(cart);
         }
@@ -46,8 +46,7 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
             var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
             shoppingCart.ApplicationUserId = userId;
 
-            ShoppingCart activeCart = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId &&
-            u.ProductId==shoppingCart.ProductId);
+            ShoppingCart activeCart = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId && u.ProductId == shoppingCart.ProductId);
 
             if (activeCart != null)
             {

@@ -17,6 +17,22 @@
       "PackagePath": "staticwebassets\\images\\logos\\Pieces.png"
     },
     {
+      "Id": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\images\\logos\\PiecesR.png",
+      "PackagePath": "staticwebassets\\images\\logos\\PiecesR.png"
+    },
+    {
+      "Id": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\images\\logos\\PiecesR2.png",
+      "PackagePath": "staticwebassets\\images\\logos\\PiecesR2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\images\\logos\\Pieceswb.png",
+      "PackagePath": "staticwebassets\\images\\logos\\Pieceswb.png"
+    },
+    {
+      "Id": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\images\\product\\0a51763e-28e4-480a-9afa-f77be176314e.png",
+      "PackagePath": "staticwebassets\\images\\product\\0a51763e-28e4-480a-9afa-f77be176314e.png"
+    },
+    {
       "Id": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\images\\product\\13a6b9f2-5660-4906-a656-7875e6acc4bd.jpg",
       "PackagePath": "staticwebassets\\images\\product\\13a6b9f2-5660-4906-a656-7875e6acc4bd.jpg"
     },

@@ -28,14 +28,22 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
 
         public IActionResult Details(int id)
         {
-            ShoppingCart cart = new ShoppingCart()
+            if (id == 0)
             {
-                Product = _unitOfWork.Product.Get(u => u.Id == id, includeProperties: "Category"),
-                Quantity = 1,
-                ProductId = id
-            };
-            
-            return View(cart);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+
+                ShoppingCart cart = new ShoppingCart()
+                {
+                    Product = _unitOfWork.Product.Get(u => u.Id == id, includeProperties: "Category"),
+                    Quantity = 1,
+                    ProductId = id
+                };
+
+                return View(cart);
+            }
         }
 
         [HttpPost]

@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\logos\Pieceshomemain.png" />
+    <Content Remove="wwwroot\images\logos\PiecesR.png" />
+    <Content Remove="wwwroot\images\logos\PiecesR2.png" />
+    <Content Remove="wwwroot\images\logos\Pieceswb.png" />
+  </ItemGroup>
+
+  <ItemGroup>
 	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
 	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.13" /> 
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.13" /> 

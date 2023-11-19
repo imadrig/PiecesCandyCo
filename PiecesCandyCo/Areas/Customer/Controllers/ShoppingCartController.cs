@@ -28,13 +28,14 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
             ShoppingCartVM = new()
             {
                 ShoppingCartItems = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
-                includeProperties: "Product")
+                includeProperties: "Product"),
+                CustomerOrderDetail = new()
             };
 
             foreach (var cart in ShoppingCartVM.ShoppingCartItems)
             {
                 cart.Price = GetPriceBasedOnQuantity(cart);
-                ShoppingCartVM.OrderTotal += (cart.Price * cart.Quantity);
+                ShoppingCartVM.CustomerOrderDetail.OrderTotal += (cart.Price * cart.Quantity);
             }
 
             return View(ShoppingCartVM);

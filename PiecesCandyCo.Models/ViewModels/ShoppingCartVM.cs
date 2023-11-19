@@ -9,6 +9,8 @@ namespace PiecesCandyCo.Models.ViewModels
     public class ShoppingCartVM
     {
         public IEnumerable<ShoppingCart> ShoppingCartItems { get; set; }
-        public double OrderTotal { get; set; }
+
+        public CustomerOrderDetail CustomerOrderDetail { get; set; }
+        
     }
 }

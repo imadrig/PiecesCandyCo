@@ -12,6 +12,8 @@ namespace PiecesCandyCo.DataAccess.Repository.IRepository
         IProductRepository Product { get; }
         IShoppingCartRepository ShoppingCart { get; }
         IApplicationUserRepository ApplicationUser { get; }
+        ICustomerOrderDetailRepository CustomerOrderDetail { get; }
+        ICartOrderDetailRepository CartOrderDetail { get; }
 
         void Save();
     }

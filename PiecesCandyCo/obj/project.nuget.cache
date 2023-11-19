@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PwL9MiWOHZgyCVilQjk3k8kYFmPItNXtxKCGM2LJDPCCAeStY6QfuHM6QHQsjxSRCcJI23gNUYkgT2Yb5Lomsw==",
+  "dgSpecHash": "mZ9scfwhfyF6MSmyPjO8aiQy+2PYQCrgzvoQeLcBimNhl3xW8cXCviiirhptsMpKz+Ydkj5DrY1VayzpVWD/nQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\PiecesCandyCo.csproj",
   "expectedPackageFiles": [
@@ -190,6 +190,7 @@
     "C:\\Users\\PC-IM\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\PC-IM\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\PC-IM\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\PC-IM\\.nuget\\packages\\stripe.net\\43.3.0\\stripe.net.43.3.0.nupkg.sha512",
     "C:\\Users\\PC-IM\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\PC-IM\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\PC-IM\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

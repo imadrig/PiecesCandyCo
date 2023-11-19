@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using PiecesCandyCo.Models;
 using PiecesCandyCo.Models.ViewModels;
 using System.Security.Claims;
+using PiecesCandyCo.Utility;
 
 namespace PiecesCandyCo.Areas.Customer.Controllers
 {
@@ -12,6 +13,7 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
     public class ShoppingCartController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+        [BindProperty]
         public ShoppingCartVM ShoppingCartVM { get; set; }
 
         public ShoppingCartController(IUnitOfWork unitOfWork)
@@ -72,6 +74,63 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
 
             return View(ShoppingCartVM);
 
+        }
+
+        [HttpPost]
+        [ActionName(nameof(CartCheckout))]
+        public IActionResult CartCheckoutPOST()
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+            ShoppingCartVM.ShoppingCartItems = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
+            includeProperties: "Product");         
+            
+            ShoppingCartVM.CustomerOrderDetail.OrderDate = DateTime.Now;
+            ShoppingCartVM.CustomerOrderDetail.ApplicationUserId = userId;
+            
+            ApplicationUser applicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
+
+            foreach (var cart in ShoppingCartVM.ShoppingCartItems)
+            {
+                cart.Price = GetPriceBasedOnQuantity(cart);
+                ShoppingCartVM.CustomerOrderDetail.OrderTotal += (cart.Price * cart.Quantity);
+            }
+
+            if (applicationUser != null)
+            {
+                ShoppingCartVM.CustomerOrderDetail.OrderStatus = SD.StatusPending;
+                ShoppingCartVM.CustomerOrderDetail.PaymentStatus = SD.PaymentStatusPending;
+            }
+            _unitOfWork.CustomerOrderDetail.Add(ShoppingCartVM.CustomerOrderDetail);
+            _unitOfWork.Save();
+
+            foreach(var item in ShoppingCartVM.ShoppingCartItems)
+            {
+                CartOrderDetail cartOrderDetail = new()
+                {
+                    ProductId = item.ProductId,
+                    CustomerOrderDetailId = ShoppingCartVM.CustomerOrderDetail.Id,
+                    Price = item.Price,
+                    Quantity = item.Quantity,
+
+                };
+                _unitOfWork.CartOrderDetail.Add(cartOrderDetail);
+                _unitOfWork.Save();
+            }
+
+            if (applicationUser != null)
+            {
+
+            }
+
+            return RedirectToAction(nameof(OrderConfirmation), new {id = ShoppingCartVM.CustomerOrderDetail.Id});
+
+        }
+
+        public IActionResult OrderConfirmation(int id)
+        {
+            return View(id);
         }
 
         public IActionResult AddToQuantity(int cartId)

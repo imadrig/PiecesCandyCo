@@ -16,6 +16,8 @@ namespace PiecesCandyCo.DataAccess.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<ApplicationUser>ApplicationUsers {get; set;}
+        public DbSet<CustomerOrderDetail> CustomerOrderDetails { get; set; }
+        public DbSet<CartOrderDetail> CartOrderDetails { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

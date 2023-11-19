@@ -43,7 +43,35 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
 
         public IActionResult CartCheckout()
         {
-            return View();
+
+
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+            ShoppingCartVM = new()
+            {
+                ShoppingCartItems = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId,
+                includeProperties: "Product"),
+                CustomerOrderDetail = new()
+            };
+
+            ShoppingCartVM.CustomerOrderDetail.ApplicationUser = _unitOfWork.ApplicationUser.Get(u => u.Id == userId);
+
+            ShoppingCartVM.CustomerOrderDetail.Name = ShoppingCartVM.CustomerOrderDetail.ApplicationUser.Name;
+            ShoppingCartVM.CustomerOrderDetail.PhoneNumber = ShoppingCartVM.CustomerOrderDetail.ApplicationUser.PhoneNumber;
+            ShoppingCartVM.CustomerOrderDetail.StreetAddress = ShoppingCartVM.CustomerOrderDetail.ApplicationUser.StreetAddress;
+            ShoppingCartVM.CustomerOrderDetail.City = ShoppingCartVM.CustomerOrderDetail.ApplicationUser.City;
+            ShoppingCartVM.CustomerOrderDetail.State = ShoppingCartVM.CustomerOrderDetail.ApplicationUser.State;
+            ShoppingCartVM.CustomerOrderDetail.ZipCode = ShoppingCartVM.CustomerOrderDetail.ApplicationUser.ZipCode;
+
+            foreach (var cart in ShoppingCartVM.ShoppingCartItems)
+            {
+                cart.Price = GetPriceBasedOnQuantity(cart);
+                ShoppingCartVM.CustomerOrderDetail.OrderTotal += (cart.Price * cart.Quantity);
+            }
+
+            return View(ShoppingCartVM);
+
         }
 
         public IActionResult AddToQuantity(int cartId)

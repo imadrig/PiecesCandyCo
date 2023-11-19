@@ -1,4 +1,6 @@
-﻿
+﻿@model ShoppingCartVM
+
+
 <form method="post">
 	<br />
 	<div class="container">
@@ -31,7 +33,8 @@
 									<label>Name</label>
 								</div>
 								<div class="col-9">
-									<input class="form-control" />
+									<input asp-for="CustomerOrderDetail.Name" class="form-control" />
+									<span asp-validation-for="CustomerOrderDetail.Name" class="text-danger"></span>
 								</div>
 							</div>
 							<div class="row my-1">
@@ -39,7 +42,8 @@
 									<label>Phone</label>
 								</div>
 								<div class="col-9">
-									<input class="form-control" />
+									<input asp-for="CustomerOrderDetail.PhoneNumber" class="form-control" />
+									<span asp-validation-for="CustomerOrderDetail.PhoneNumber" class="text-danger"></span>
 								</div>
 							</div>
 							<div class="row my-1">
@@ -47,7 +51,8 @@
 									<label>Street Address</label>
 								</div>
 								<div class="col-9">
-									<input class="form-control" />
+									<input asp-for="CustomerOrderDetail.StreetAddress" class="form-control" />
+									<span asp-validation-for="CustomerOrderDetail.StreetAddress" class="text-danger"></span>
 								</div>
 							</div>
 							<div class="row my-1">
@@ -55,7 +60,8 @@
 									<label>City</label>
 								</div>
 								<div class="col-9">
-									<input class="form-control" />
+									<input asp-for="CustomerOrderDetail.City" class="form-control" />
+									<span asp-validation-for="CustomerOrderDetail.City" class="text-danger"></span>
 								</div>
 							</div>
 							<div class="row my-1">
@@ -63,7 +69,8 @@
 									<label>State</label>
 								</div>
 								<div class="col-9">
-									<input class="form-control" />
+									<input asp-for="CustomerOrderDetail.State" class="form-control" />
+									<span asp-validation-for="CustomerOrderDetail.State" class="text-danger"></span>
 								</div>
 							</div>
 							<div class="row my-1">
@@ -71,7 +78,8 @@
 									<label>Zip Code</label>
 								</div>
 								<div class="col-9">
-									<input class="form-control" />
+									<input asp-for="CustomerOrderDetail.ZipCode" class="form-control" />
+									<span asp-validation-for="CustomerOrderDetail.ZipCode" class="text-danger"></span>
 								</div>
 							</div>
 						</div>
@@ -80,18 +88,19 @@
 								<span class="text-info">Order Summary:</span>
 							</h4>
 							<ul class="list-group mb-3">
+								@foreach(var details in Model.ShoppingCartItems) {
 								<li class="list-group-item d-flex justify-content-between">
 									<div>
-										<h6 class="my-0">Title</h6>
-										<small class="text-muted">Quantity: </small>
+										<h6 class="my-0">@details.Product.Name</h6>
+										<small class="text-muted">Quantity: @details.Quantity</small>
 									</div>
-									<span class="text-muted">Price </span>
+									<span class="text-muted">@((details.Price * details.Quantity).ToString("c")) </span>
 								</li>
-
+								}
 
 								<li class="list-group-item d-flex justify-content-between bg-light">
 									<small class="text-info">Total</small>
-									<strong class="text-info">$</strong>
+									<strong class="text-info">@Model.CustomerOrderDetail.OrderTotal.ToString("c")</strong>
 								</li>
 							</ul>
 						</div>
@@ -103,7 +112,7 @@
 					<div class="col-12 col-md-8 pt-2">
 						<p class= "text-dark" style="font-size:14px">
 							Estimate Arrival Date:
-						
+							@DateTime.Now.AddDays(7).ToShortDateString() - @DateTime.Now.AddDays(14).ToShortDateString()
 						</p>
 					</div>
 					

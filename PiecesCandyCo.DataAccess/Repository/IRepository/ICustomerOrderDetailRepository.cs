@@ -10,6 +10,7 @@ namespace PiecesCandyCo.DataAccess.Repository.IRepository
     public interface ICustomerOrderDetailRepository : IRepository<CustomerOrderDetail>
     {
         void Update(CustomerOrderDetail customerOrderDetail);
+        void UpdateStatus (int id, string orderStatus, string? paymentStatus = null);
         
     }
 }

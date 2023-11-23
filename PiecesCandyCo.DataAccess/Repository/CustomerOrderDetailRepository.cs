@@ -25,13 +25,13 @@ namespace PiecesCandyCo.DataAccess.Repository
 
         public void UpdateStatus (int id, string orderStatus, string? paymentStatus = null)
         {
-            var orderFromDb = _db.CustomerOrderDetails.FirstOrDefault(x => x.Id == id);
+            var orderFromDb = _db.CustomerOrderDetails.FirstOrDefault(u => u.Id == id);
 
             if (orderFromDb != null)
             {
                 orderFromDb.OrderStatus = orderStatus;
 
-                if (string.IsNullOrEmpty(paymentStatus))
+                if (!string.IsNullOrEmpty(paymentStatus))
                 {
                     orderFromDb.PaymentStatus = paymentStatus;
                 }

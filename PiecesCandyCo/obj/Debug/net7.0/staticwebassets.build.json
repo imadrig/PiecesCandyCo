@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cBYgAu6zGTZ2nWU3AYtkk3ze2u0LEDHSWFWu80/FtV0=",
+  "Hash": "FIxzsJ9bwW2e88esODFUhsxZHoaEaesblL/owtrWlnE=",
   "Source": "PiecesCandyCo",
   "BasePath": "_content/PiecesCandyCo",
   "Mode": "Default",
@@ -1460,6 +1460,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\f52b9dba-a3dc-46ff-b18c-b3c5e25562a0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\js\\order.js",
+      "SourceId": "PiecesCandyCo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\",
+      "BasePath": "_content/PiecesCandyCo",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\js\\product.js",

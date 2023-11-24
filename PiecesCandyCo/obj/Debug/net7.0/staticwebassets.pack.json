@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets\\images\\product\\f52b9dba-a3dc-46ff-b18c-b3c5e25562a0.jpg"
     },
     {
+      "Id": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
       "Id": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },

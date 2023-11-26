@@ -7,11 +7,11 @@
         <div class="card">
             <div class="card-header bg-primary text-light ml-0">
                 <div class="container row">
-                    
+
                     <div class="col-3 text-left">
                         <a asp-action="Index" class="btn btn-info form-control btn-sm"><i class="bi bi-arrow-left"></i> Back to Orders</a>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="card-body">
@@ -26,7 +26,7 @@
                             <div class="row my-1">
                                 <div class="col-3">Name</div>
                                 <div class="col-9">
-                                    @if(User.IsInRole(SD.Role_Admin))
+                                    @if (User.IsInRole(SD.Role_Admin))
                                     {
                                         <input asp-for="CustomerOrderDetail.Name" type="text" class="form-control" />
                                         <span asp-validation-for="CustomerOrderDetail.Name" class="text-danger"></span>
@@ -111,17 +111,17 @@
                             <div class="row my-1">
                                 <div class="col-3">Email</div>
                                 <div class="col-9">
-                                        <input asp-for="CustomerOrderDetail.ApplicationUser.Email" readonly type="text" class="form-control" />
-                                   
+                                    <input asp-for="CustomerOrderDetail.ApplicationUser.Email" readonly type="text" class="form-control" />
+
                                 </div>
                             </div>
                             <div class="row my-1">
                                 <div class="col-3">Order Date</div>
                                 <div class="col-9">
-                                 
-                                        <input value="@Model.CustomerOrderDetail.OrderDate.ToShortDateString()" readonly type="text" class="form-control" />
-                               
-                                   
+
+                                    <input value="@Model.CustomerOrderDetail.OrderDate.ToShortDateString()" readonly type="text" class="form-control" />
+
+
                                 </div>
                             </div>
                             <div class="row my-1">
@@ -129,8 +129,8 @@
                                 <div class="col-9">
                                     @if (User.IsInRole(SD.Role_Admin))
                                     {
-                                        <input asp-for="CustomerOrderDetail.Carrier" type="text" class="form-control" />
-                                        <span asp-validation-for="CustomerOrderDetail.Name" class="text-danger"></span>
+                                        <input asp-for="CustomerOrderDetail.Carrier" id="carrier" type="text" class="form-control" />
+                                       
                                     }
                                     else
                                     {
@@ -143,8 +143,8 @@
                                 <div class="col-9">
                                     @if (User.IsInRole(SD.Role_Admin))
                                     {
-                                        <input asp-for="CustomerOrderDetail.TrackingNumber" type="text" class="form-control" />
-                                        <span asp-validation-for="CustomerOrderDetail.TrackingNumber" class="text-danger"></span>
+                                        <input asp-for="CustomerOrderDetail.TrackingNumber" id="trackingNumber" type="text" class="form-control" />
+                                      
                                     }
                                     else
                                     {
@@ -155,10 +155,10 @@
                             <div class="row my-1">
                                 <div class="col-3">Shipping Date</div>
                                 <div class="col-9">
-                                
-                                        <input value="@Model.CustomerOrderDetail.ShipDate.ToShortDateString()" type="text" class="form-control" />
-                                    </div>
-                                
+
+                                    <input value="@Model.CustomerOrderDetail.ShipDate.ToShortDateString()" type="text" class="form-control" />
+                                </div>
+
 
                             </div>
                             @if (User.IsInRole(SD.Role_Admin))
@@ -168,12 +168,12 @@
                                     <div class="col-9">
                                         @if (User.IsInRole(SD.Role_Admin))
                                         {
-                                        <input asp-for="CustomerOrderDetail.SessionId" type="text" class="form-control" />
-                                       
+                                            <input asp-for="CustomerOrderDetail.SessionId" type="text" class="form-control" />
+
                                         }
                                         else
                                         {
-                                        <input asp-for="CustomerOrderDetail.SessionId" readonly type="text" class="form-control" />
+                                            <input asp-for="CustomerOrderDetail.SessionId" readonly type="text" class="form-control" />
                                         }
                                     </div>
                                 </div>
@@ -203,10 +203,10 @@
                             <div class="row my-1">
                                 <div class="col-3">Payment Status</div>
                                 <div class="col-9">
-                                <input value="@Model.CustomerOrderDetail.PaymentStatus" readonly type="text" class="form-control"/>
+                                    <input value="@Model.CustomerOrderDetail.PaymentStatus" readonly type="text" class="form-control" />
                                 </div>
                             </div>
-                             @if (User.IsInRole(SD.Role_Admin))
+                            @if (User.IsInRole(SD.Role_Admin))
                             {
                                 <input type="submit" asp-action="UpdateOrderDetail" class="btn btn-warning form-control my-1" value="Update Order Details" />
                             }
@@ -218,20 +218,21 @@
                             <label class="btn btn-outline-primary form-control my-2">Order Status - @Model.CustomerOrderDetail.OrderStatus</label>
 
                             <ul class="list-group mb-3">
-                                @foreach(var item in Model.CartOrderDetail){
-                                <li class="list-group-item d-flex justify-content-between p-2">
-                                    <div class="row container">
-                                        <div class="col-8">
+                                @foreach (var item in Model.CartOrderDetail)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between p-2">
+                                        <div class="row container">
+                                            <div class="col-8">
 
-                                            <h6 class="my-0 text-primary">@item.Product.Name</h6>
-                                            <small class="text-muted">Price : @item.Price.ToString("c")</small><br />
-                                            <small class="text-muted">Quantity : @item.Quantity</small>
+                                                <h6 class="my-0 text-primary">@item.Product.Name</h6>
+                                                <small class="text-muted">Price : @item.Price.ToString("c")</small><br />
+                                                <small class="text-muted">Quantity : @item.Quantity</small>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <p class="text-success">@((item.Quantity * item.Price).ToString("c"))</p>
+                                            </div>
                                         </div>
-                                        <div class="col-4 text-end">
-                                            <p class="text-success">@((item.Quantity * item.Price).ToString("c"))</p>
-                                        </div>
-                                    </div>
-                                </li>
+                                    </li>
                                 }
                                 <li class="list-group-item bg-primary">
                                     <div class="row container">
@@ -244,8 +245,14 @@
                                     </div>
                                 </li>
                             </ul>
-                            <input type="submit" class="btn btn-primary form-control my-1" value="Ship Order" />
-                            <input type="submit" class="btn btn-danger form-control my-1" value="Cancel Order" />
+                            @if (User.IsInRole(SD.Role_Admin))
+                            {
+                                @if (Model.CustomerOrderDetail.OrderStatus == SD.StatusApproved)
+                                {
+                                    <input type="submit" onclick="return validateInput()" asp-action="ShipOrder" class="btn btn-primary form-control my-1" value="Ship Order" />
+                                }
+
+                            }
                         </div>
                     </div>
                 </div>
@@ -253,3 +260,30 @@
         </div>
     </div>
 </form>
+
+@section Scripts{
+
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function validateInput() {
+            if (document.getElementById("trackingNumber").value == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please enter tracking number!',
+                });
+                return false;
+            }
+            if (document.getElementById("carrier").value == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please enter carrier!',
+                });
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+}

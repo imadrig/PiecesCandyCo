@@ -64,6 +64,16 @@ namespace PiecesCandyCo.Areas.Admin.Controllers
             return RedirectToAction(nameof(Details), new { orderId = customerOrderDetailFromDb.Id });
         }
 
+        [HttpPost]
+        [Authorize(Roles = SD.Role_Admin)]
+        public IActionResult ShipOrder()
+        {
+            _unitOfWork.CustomerOrderDetail.UpdateStatus(OrderVM.CustomerOrderDetail.Id, SD.StatusShipped);
+            _unitOfWork.Save();
+            TempData["Success"] = "Order Details Updated Succesfully!";
+            return RedirectToAction(nameof(Details), new { orderId = OrderVM.CustomerOrderDetail.Id });
+        }
+
 
         #region API CALLS
 

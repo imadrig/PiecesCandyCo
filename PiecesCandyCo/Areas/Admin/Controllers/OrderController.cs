@@ -68,9 +68,15 @@ namespace PiecesCandyCo.Areas.Admin.Controllers
         [Authorize(Roles = SD.Role_Admin)]
         public IActionResult ShipOrder()
         {
-            _unitOfWork.CustomerOrderDetail.UpdateStatus(OrderVM.CustomerOrderDetail.Id, SD.StatusShipped);
-            _unitOfWork.Save();
-            TempData["Success"] = "Order Details Updated Succesfully!";
+            var customerOrderDetail = _unitOfWork.CustomerOrderDetail.Get(u => u.Id == OrderVM.CustomerOrderDetail.Id);
+            customerOrderDetail.TrackingNumber = OrderVM.CustomerOrderDetail.TrackingNumber;
+            customerOrderDetail.Carrier = OrderVM.CustomerOrderDetail.Carrier;
+            customerOrderDetail.OrderStatus = SD.StatusShipped;
+            customerOrderDetail.ShipDate = DateTime.Now;
+
+            _unitOfWork.CustomerOrderDetail.Update(customerOrderDetail);
+            _unitOfWork.Save(); 
+            TempData["Success"] = "Order Shipped Succesfully!";
             return RedirectToAction(nameof(Details), new { orderId = OrderVM.CustomerOrderDetail.Id });
         }
 

@@ -14,10 +14,11 @@ namespace PiecesCandyCo.Utility
         public const string StatusPending = "Pending";
         public const string StatusApproved = "Approved";
         public const string StatusShipped = "Shipped";
+        public const string StatusCancelled = "Cancelled";
 
         public const string PaymentStatusPending = "Pending";
         public const string PaymentStatusApproved = "Approved";
-        
+        public const string PaymentStatusRefunded = "Refunded";
 
 
 

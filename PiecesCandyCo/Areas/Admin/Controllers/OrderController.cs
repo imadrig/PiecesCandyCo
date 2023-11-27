@@ -5,6 +5,7 @@ using PiecesCandyCo.DataAccess.Repository.IRepository;
 using PiecesCandyCo.Models;
 using PiecesCandyCo.Models.ViewModels;
 using PiecesCandyCo.Utility;
+using Stripe;
 using System.Security.Claims;
 
 namespace PiecesCandyCo.Areas.Admin.Controllers
@@ -80,10 +81,38 @@ namespace PiecesCandyCo.Areas.Admin.Controllers
             return RedirectToAction(nameof(Details), new { orderId = OrderVM.CustomerOrderDetail.Id });
         }
 
+        [HttpPost]
+        [Authorize(Roles = SD.Role_Admin)]
+        public IActionResult CancelOrder()
+        {
+            var customerOrderDetail = _unitOfWork.CustomerOrderDetail.Get(u => u.Id == OrderVM.CustomerOrderDetail.Id);
+            if (customerOrderDetail.PaymentStatus == SD.PaymentStatusApproved)
+            {
+                var refundOption = new RefundCreateOptions
+                {
+                    Reason = RefundReasons.RequestedByCustomer,
+                    PaymentIntent = customerOrderDetail.PaymentIntentId
+                };
 
-        #region API CALLS
+                var refundService = new RefundService();
+                Refund refund = refundService.Create(refundOption);
 
-        [HttpGet]
+                _unitOfWork.CustomerOrderDetail.UpdateStatus(customerOrderDetail.Id, SD.StatusCancelled, SD.PaymentStatusRefunded);
+            }
+            else
+            {
+                _unitOfWork.CustomerOrderDetail.UpdateStatus(customerOrderDetail.Id, SD.StatusCancelled, SD.StatusCancelled);
+            }
+
+            _unitOfWork.Save();
+            TempData["Success"] = "Order Cancelled Succesfully!";
+            return RedirectToAction(nameof(Details), new { orderId = OrderVM.CustomerOrderDetail.Id });
+        }
+
+
+            #region API CALLS
+
+            [HttpGet]
         [Authorize]
         public IActionResult GetAll()
         {

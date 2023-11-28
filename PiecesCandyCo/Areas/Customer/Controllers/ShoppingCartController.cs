@@ -198,10 +198,11 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
 
         public IActionResult SubtractFromQuantity(int cartId)
         {
-            var activeCart = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
+            var activeCart = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId, tracked: true);
 
             if (activeCart.Quantity <= 1)
             {
+                HttpContext.Session.SetInt32(SD.SessionCart, _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == activeCart.ApplicationUserId).Count() - 1);
                 _unitOfWork.ShoppingCart.Remove(activeCart);
             }
             else
@@ -215,10 +216,12 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
 
         public IActionResult Remove(int cartId)
         {
-            var activeCart = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId);
-
+            var activeCart = _unitOfWork.ShoppingCart.Get(u => u.Id == cartId, tracked:true);
+            HttpContext.Session.SetInt32(SD.SessionCart, _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == activeCart.ApplicationUserId).Count() - 1);
             _unitOfWork.ShoppingCart.Remove(activeCart);
+            
             _unitOfWork.Save();
+            
             return RedirectToAction(nameof(Index));
         }
 

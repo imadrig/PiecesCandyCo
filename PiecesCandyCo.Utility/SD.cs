@@ -20,7 +20,7 @@ namespace PiecesCandyCo.Utility
         public const string PaymentStatusApproved = "Approved";
         public const string PaymentStatusRefunded = "Refunded";
 
-
+        public const string SessionCart = "SessionShoppingCart";
 
     }
 }

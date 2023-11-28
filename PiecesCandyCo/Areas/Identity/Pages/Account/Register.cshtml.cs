@@ -195,9 +195,26 @@ namespace PiecesCandyCo.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        if(_userManager.Options.SignIn.RequireConfirmedAccount)
+                        {
+                            return RedirectToPage("RegisterConfirmation", new {email = Input.Email, returnUrl= returnUrl });
+                        }
+                        else
+                        {
+                            if (User.IsInRole(SD.Role_Admin))
+                            {
+                                TempData["success"] = "New User Created Successfully!";
+                            }
+                            else
+                            {
+                                await _signInManager.SignInAsync(user, isPersistent: false);
+                            }
+                            
+                            return LocalRedirect(returnUrl);
+                        }
                     }
+                        
+                    
                 }
                 foreach (var error in result.Errors)
                 {

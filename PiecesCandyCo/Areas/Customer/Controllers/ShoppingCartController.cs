@@ -177,6 +177,7 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
                     _unitOfWork.CustomerOrderDetail.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }
+                HttpContext.Session.Clear();
             }
 
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == customerOrderDetail.ApplicationUserId).ToList();

@@ -18,23 +18,9 @@
 </head>
 <body>
     <header>
-
-        <div class="container">
-            <div class="row">
-                <div class="col text-center mt-2">
-                    <a asp-area="Customer" asp-controller="Home" asp-action="Index">
-                    <img src="/images/logos/Pieceshomemain2.png" class="img-fluid mx-auto d-block"  alt="Centered Logo">
-                    </a>
-
-                </div>
-            </div>
-        </div>
-
-
-
         <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow mb-3 mt-20">
             <div class="container-fluid">
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -64,9 +50,9 @@
                                         <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Products</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register" >Create User</a>
-                                    </li> 
-                                    
+                                        <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register">Create User</a>
+                                    </li>
+
 
                                 </ul>
                             </li>
@@ -75,18 +61,32 @@
 
                     </ul>
 
-                    <partial name="_LoginPartial" />                    
-              
+                    <partial name="_LoginPartial" />
+
                     <div class="px-2">
                         <a class="nav-link text-dark" asp-area="Customer" asp-controller="ShoppingCart" asp-action="Index">
                             @await Component.InvokeAsync("ShoppingCart")
                         </a>
                     </div>
-                    
+
 
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mb-2">
+                    <a asp-area="Customer" asp-controller="Home" asp-action="Index">
+                    <img src="/images/logos/Pieceshomemain2.png" class="img-fluid mx-auto d-block"  alt="Centered Logo">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        
     </header>
     <div class="container">
         <main role="main" class="pb-3">

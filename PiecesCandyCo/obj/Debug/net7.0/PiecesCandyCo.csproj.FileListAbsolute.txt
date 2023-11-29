@@ -297,4 +297,4 @@ C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win-a
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\Stripe.net.dll
-C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\appsettingsProduction.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\appsettings.Production.json

@@ -123,12 +123,12 @@ namespace PiecesCandyCo.Areas.Customer.Controllers
 
             if (applicationUser != null)
             {
-
+                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
                 var options = new SessionCreateOptions
                 {
-
-                    SuccessUrl = $"https://localhost:7004/customer/ShoppingCart/OrderConfirmation?id={ShoppingCartVM.CustomerOrderDetail.Id}",
-                    CancelUrl = "https://localhost:7004/customer/ShoppingCart/Index",
+                    
+                    SuccessUrl = domain + $"customer/ShoppingCart/OrderConfirmation?id={ShoppingCartVM.CustomerOrderDetail.Id}",
+                    CancelUrl = domain + "customer/ShoppingCart/Index",
                     LineItems = new List<SessionLineItemOptions>(), 
                     Mode = "payment",
                 };

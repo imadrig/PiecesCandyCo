@@ -28,7 +28,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-light" asp-area="Customer" asp-controller="Home" asp-action="Index"><i class="bi bi-house-heart"></i></a>
                         </li>
                         @if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Customer))
                         {
@@ -44,10 +44,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Categories</a>
+                                        <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Manage Categories</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Products</a>
+                                        <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Manage Products</a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register">Create User</a>
@@ -60,11 +60,11 @@
 
 
                     </ul>
-
+                    
                     <partial name="_LoginPartial" />
 
                     <div class="px-2">
-                        <a class="nav-link text-dark" asp-area="Customer" asp-controller="ShoppingCart" asp-action="Index">
+                        <a class="nav-link text-light" asp-area="Customer" asp-controller="ShoppingCart" asp-action="Index">
                             @await Component.InvokeAsync("ShoppingCart")
                         </a>
                     </div>

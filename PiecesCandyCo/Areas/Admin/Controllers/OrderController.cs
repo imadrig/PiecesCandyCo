@@ -112,7 +112,7 @@ namespace PiecesCandyCo.Areas.Admin.Controllers
 
             #region API CALLS
 
-            [HttpGet]
+        [HttpGet]
         [Authorize]
         public IActionResult GetAll()
         {

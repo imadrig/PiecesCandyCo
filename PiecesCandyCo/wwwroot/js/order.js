@@ -13,7 +13,18 @@ function loadDataTable() {
             { data: 'phoneNumber', "width": "15%" },
             { data: 'applicationUser.email', "width": "20%" },
             { data: 'orderStatus', "width": "10%" },
-            { data: 'orderTotal', "width": "10%" },
+            {
+                /*data: 'orderTotal', "width": "10%"*/
+                data: 'orderTotal',
+                "render": function (data) {
+                    
+                    var orderTotal = typeof data === 'string' ? parseFloat(data) : data;
+
+                    
+                    return isNaN(orderTotal) ? '' : orderTotal.toFixed(2);
+                },
+                "width": "10%"
+            },
             {
                 data: 'id',
                 "render": function (data) {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FIxzsJ9bwW2e88esODFUhsxZHoaEaesblL/owtrWlnE=",
+  "Hash": "S2vSvWn8vW2AQNMMSR6dUMDFjjRQO0+yAZNdXZsTDa4=",
   "Source": "PiecesCandyCo",
   "BasePath": "_content/PiecesCandyCo",
   "Mode": "Default",
@@ -1088,12 +1088,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\favicon-32x32_1.png",
       "SourceId": "PiecesCandyCo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\",
       "BasePath": "_content/PiecesCandyCo",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "favicon-32x32_1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,7 +1102,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon-32x32_1.png"
     },
     {
       "Identity": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\images\\logos\\Pieces.png",

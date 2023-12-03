@@ -1,4 +1,4 @@
-# Pieces Candy Co.
+# Pieces Candy Co. - piecescandyco.azurewebsites.net
 
 piecescandyco.azurewebsites.net
 

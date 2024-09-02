@@ -72,7 +72,6 @@ C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win\l
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\obj\Debug\net7.0\PiecesCandyCo.csproj.AssemblyReference.cache
-C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\obj\Debug\net7.0\PiecesCandyCo.csproj.CopyComplete
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\Microsoft.Build.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\Microsoft.Build.Framework.dll
@@ -298,3 +297,5 @@ C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win-x
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\Stripe.net.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\bin\Debug\net7.0\appsettings.Production.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\obj\Debug\net7.0\PiecesCandyCo.sourcelink.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo\obj\Debug\net7.0\PiecesCa.E5EE0CC5.Up2Date

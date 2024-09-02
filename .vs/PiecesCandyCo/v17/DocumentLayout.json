@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8FFDB86-1269-4300-B834-2405C90A2C94}|PiecesCandyCo.DataAccess\\PiecesCandyCo.DataAccess.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco.dataaccess\\dbinitializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8FFDB86-1269-4300-B834-2405C90A2C94}|PiecesCandyCo.DataAccess\\PiecesCandyCo.DataAccess.csproj|solutionrelative:piecescandyco.dataaccess\\dbinitializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\customer\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\customer\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\customer\\views\\shoppingcart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\customer\\views\\shoppingcart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\wwwroot\\js\\order.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|c:\\users\\pc-im\\repos\\piecescandyco\\piecescandyco\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56EE8AFE-DC59-4D8F-A24D-44E7F85B9CD3}|PiecesCandyCo\\PiecesCandyCo.csproj|solutionrelative:piecescandyco\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml*",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Identity\\Pages\\Account\\Login.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T00:07:07.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T00:06:25.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "PiecesCandyCo.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "RelativeToolTip": "PiecesCandyCo.DataAccess\\DbInitializer\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:25:08.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T14:18:50.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Customer\\Views\\ShoppingCart\\OrderConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T14:18:46.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T14:18:36.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T14:18:24.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAA0wBYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:14:58.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T14:14:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAcwDAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:12:36.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-30T02:00:47.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "order.js",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\js\\order.js",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\wwwroot\\js\\order.js",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\wwwroot\\js\\order.js",
+              "RelativeToolTip": "PiecesCandyCo\\wwwroot\\js\\order.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-11-30T00:52:49.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T00:51:10.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC-IM\\repos\\PiecesCandyCo\\PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "PiecesCandyCo\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAowLkAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-30T00:51:00.749Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

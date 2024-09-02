@@ -11,9 +11,10 @@ C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\bin\Debug\net7.0\Pie
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\bin\Debug\net7.0\PiecesCandyCo.Utility.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\bin\Debug\net7.0\PiecesCandyCo.Models.pdb
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\bin\Debug\net7.0\PiecesCandyCo.Utility.pdb
-C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\PiecesCandyCo.DataAccess.csproj.CopyComplete
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\PiecesCandyCo.DataAccess.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\refint\PiecesCandyCo.DataAccess.dll
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\PiecesCandyCo.DataAccess.pdb
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\PiecesCandyCo.DataAccess.genruntimeconfig.cache
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\ref\PiecesCandyCo.DataAccess.dll
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\PiecesCandyCo.DataAccess.sourcelink.json
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.DataAccess\obj\Debug\net7.0\PiecesCa.744B0470.Up2Date

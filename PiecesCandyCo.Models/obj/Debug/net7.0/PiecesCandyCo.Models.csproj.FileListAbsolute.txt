@@ -12,3 +12,4 @@ C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\ref\Pie
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.csproj.AssemblyReference.cache
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\bin\Debug\net7.0\PiecesCandyCo.Models.runtimeconfig.json
 C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.genruntimeconfig.cache
+C:\Users\PC-IM\repos\PiecesCandyCo\PiecesCandyCo.Models\obj\Debug\net7.0\PiecesCandyCo.Models.sourcelink.json
